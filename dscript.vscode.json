@@ -1,0 +1,17 @@
+{
+    "contributes": {
+      "languages": [
+        {
+          "id": "dscript",
+          "extensions": [".dscript"]
+        }
+      ],
+      "grammars": [
+        {
+          "language": "dscript",
+          "scopeName": "source.dscript",
+          "path": "./dscript.textmate.grammar.xml"
+        }
+      ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "dscript",
+    "displayName": "dscript",
+    "description": "I love dscript",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "dscript",
+            "aliases": ["dscript", "dscript"],
+            "extensions": [".dscript"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dscript",
+            "scopeName": "_start.dscript",
+            "path": "./syntaxes/dscript.textmate.grammar.xml"
+        }]
+    }
+}
